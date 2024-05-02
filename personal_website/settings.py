@@ -158,11 +158,11 @@ cloudinary.config(
   api_secret = "Rc4MD6MMwUFPQws4tZQranfleik" 
 )
 
-CSRF_TRUSTED_ORIGINS = ['https://rl-app-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://varshney-yash.up.railway.app/']
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_STORAGE="whitenoise.storage.CompressedManifestStaticFilesStorage"
 
