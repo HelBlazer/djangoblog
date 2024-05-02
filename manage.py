@@ -19,5 +19,5 @@ def main():
 
 
 if __name__ == '__main__':
-    print(f"\n\n\n\n*****{os.getenv}******\n\n\n\n")
+    print(f"\n\n\n\n*****{os.environ}******\n\n\n\n")
     main()
